@@ -1,0 +1,2 @@
+print(sum(list(map(lambda x, y: int(x.strip()) < int(y.strip()), open("day1input.txt").readlines(), open("day1input.txt").readlines()[1:]))))
+print(sum(list(map(lambda x, y: x < y, list(map(lambda x, y, z: int(x.strip()) + int(y.strip()) + int(z.strip()), open("day1input.txt").readlines(), open("day1input.txt").readlines()[1:], open("day1input.txt").readlines()[2:])), list(map(lambda x, y, z: int(x.strip()) + int(y.strip()) + int(z.strip()), open("day1input.txt").readlines(), open("day1input.txt").readlines()[1:], open("day1input.txt").readlines()[2:]))[1:]))))
